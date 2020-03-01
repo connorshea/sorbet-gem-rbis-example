@@ -1,0 +1,24 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    polyfill (1.8.0)
+    safe_type (1.1.1)
+    sorbet (0.5.5406)
+      sorbet-static (= 0.5.5406)
+    sorbet-coerce (0.2.3)
+      polyfill (~> 1.8)
+      safe_type (~> 1.1, >= 1.1.1)
+      sorbet (>= 0.4.4704)
+      sorbet-runtime (>= 0.4.4704)
+    sorbet-runtime (0.5.5406)
+    sorbet-static (0.5.5406-universal-darwin-14)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  sorbet (~> 0.5.5406)
+  sorbet-coerce (~> 0.2.3)
+
+BUNDLED WITH
+   2.1.0
